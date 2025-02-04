@@ -1,0 +1,20 @@
+Introdução JavaScript
+
+-linguagem interpretada
+
+-tipagem dinâmica fraca
+
+-multe paradigma
+
+-principal linguagem client-side(lado do usuário)
+
+-sever-site Node.js
+
+extensões:
+-Eslint
+Eslint tem como foco verificar erros e incoerências no código
+
+-Prettier
+Prettier pode arrumar erros, mas tem como foco a formatação do código
+
+-CodeRunner

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>calculadora</title>
+</head>
+<body>
+    <div class="calculadora">
+        <h1>Aperte o botão para ver a resultado</h1>
+        <input type="number" placeholder="número1(esse será o valor utilizado na conversão)" id="n1">
+        <input type="number" placeholder="número2(não é nessesario preencher caso for fazer conversão de moedas)" id="n2">
+        <select id="op">
+            <option value="1">soma</option>
+            <option value="2">subtração</option>
+            <option value="3">multiplicação</option>
+            <option value="4">divisão</option>
+            <option value="5">real para dólar</option>
+            <option value="6">dólar para real</option>
+        </select>
+        <button onclick ="botao()">clique</button>
+        <p id="resultado"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
